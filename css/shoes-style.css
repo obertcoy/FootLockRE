@@ -110,7 +110,7 @@ nav {
 
     display: flex;
     flex-direction: column;
-    width: fit-content;
+    width: 33%;
     align-items: center;
     text-align: start;
 }
@@ -195,14 +195,19 @@ footer a{
     nav {
         flex-direction: column;
         height: fit-content;
-        
     }
     .nav-left{
-        margin: 0
+        margin: 0;
     }
     .nav-right {
         flex-direction: column;
         margin: 2vh 0;
         gap: 2vh
+    }
+    .content-container{
+        padding-top: 30vh;
+    }
+    .shoe-card{
+        width: fit-content;
     }
 }

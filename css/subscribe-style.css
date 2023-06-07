@@ -178,6 +178,16 @@ input::placeholder {
     font-family: "IM Fell DW Pica SC";
 }
 
+.content-form button:hover{
+    color: red;
+}
+
+#success-message h2{
+    display: none;
+    color: green;
+    text-align: center;
+}
+
 footer {
     display: flex;
     width: 100%;

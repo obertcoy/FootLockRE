@@ -26,15 +26,15 @@
         <form action="" class="content-form">
             <div class="form-name">
                 <h2>Name</h2>
-                <input type="text" placeholder="Name..."> 
+                <input type="text" placeholder="E.g. example" id="name-input">
             </div>
             <div class="form-email">
                 <h2>Email</h2>
-                <input type="text" placeholder="Email..."> 
+                <input type="email" placeholder="E.g. example@mail.com" id="email-input">
             </div>
             <div class="form-phone">
                 <h2>Phone</h2>
-                <input type="text" placeholder="Input Name..."> 
+                <input type="text" placeholder="E.g. +62123456789" id="phone-input">
             </div>
             <div class="form-country-gender">
                 <div class="form-country">
@@ -45,7 +45,6 @@
                         <option value="japan">Japan</option>
                         <option value="south korea">South Korea</option>
                         <option value="hong kong">Hong Kong</option>
-
                     </select>
                 </div>
                 <div class="form-gender">
@@ -56,7 +55,6 @@
                             <label for="male">Male</label>
                         </div>
                         <div>
-                            
                             <input name="gender" id="female" type="radio">
                             <label for="female">Female</label>
                         </div>
@@ -64,18 +62,18 @@
                 </div>
             </div>
             <div class="form-term">
-
                 <input type="checkbox" id="term">
                 <label for="term">I agree with the terms and conditions</label>
             </div>
             <button type="submit">Subscribe</button>
+            <div class="success-message" id="success-message">
+                <h2>Form submitted successfully!</h2>
+              </div>
         </form>
-        
     </div>
-    
     <footer>
         <div class="footer-left">
-            <a href="home.html  ">FootLockRE</a>
+            <a href="home.html">FootLockRE</a>
         </div>
         <div class="footer-middle">
             <a href="https://www.instagram.com"><img src="/Assets/icons/instagram_icon.svg" alt=""></a>
@@ -87,6 +85,6 @@
         </div>
     </footer>
 </body>
-<script src="/js/home.js"></script>
+<script src="/js/subscribe.js"></script>
 
 </html>
